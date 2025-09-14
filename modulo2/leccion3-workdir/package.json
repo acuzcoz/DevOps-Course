@@ -1,0 +1,17 @@
+{
+  "name": "microservicio-organizado",
+  "version": "1.0.0",
+  "description": "Microservicio con estructura organizada usando WORKDIR",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Tests ejecutándose desde: $(pwd)\"",
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0"
+  },
+  "keywords": ["docker", "workdir", "microservicio", "devops"],
+  "author": "acuzcoz",
+  "license": "MIT"
+}
