@@ -155,6 +155,7 @@ aws sts get-caller-identity --profile admin-mined-ext
 - **Conceptos:** Diferencias profundas, ciclo de vida
 - **Ejercicios:** Gestión avanzada de recursos
 - **Comandos:** Registry, tags, layers
+- **🔧 METODOLOGÍA:** Git workflow por comandos (desde esta lección)
 
 ---
 

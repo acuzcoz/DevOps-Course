@@ -156,6 +156,11 @@ netstat -tulpn
 
 ## **🐙 GITHUB/GIT - ANATOMÍA COMPLETA**
 
+### **📋 METODOLOGÍA DEL CURSO**
+- **Lecciones 1-2:** Documentadas vía VS Code (ya en GitHub)
+- **Lección 3+:** Uso exclusivo de comandos Git por terminal
+- **Objetivo:** Dominar workflow profesional con anatomía completa
+
 ### **Git Básico**
 ```bash
 git init

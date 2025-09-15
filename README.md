@@ -55,6 +55,7 @@ Conceptos → Práctica → Integración → Automatización → Producción
 - **5 tecnologías integradas**: Stack completo
 - **Portfolio demostrable**: Proyectos reales
 - **Automatización real**: Scripts y CI/CD
+- **Git workflow profesional**: Comandos por terminal desde Lección 3
 
 ---
 

@@ -33,6 +33,12 @@ comando subcomando --flag argumento
 - **Local** → **GitHub** → **AWS CLI** → **EC2** → **Producción**
 - **Manual** → **Automatizado** → **Profesional**
 
+### **🔧 METODOLOGÍA GIT WORKFLOW**
+**Desde Lección 3:** Uso exclusivo de comandos Git por terminal
+- **Lecciones 1-2:** Documentadas vía VS Code (ya en GitHub)
+- **Lección 3+:** Git commands con anatomía completa
+- **Integración:** Commit/push como parte del aprendizaje
+
 ---
 
 ## **MÓDULO 1: FUNDAMENTOS ABSOLUTOS** ⏳
