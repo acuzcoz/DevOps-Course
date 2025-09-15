@@ -20,6 +20,28 @@
 - Lección 5: Multi-stage builds  
 - Lección 6: Optimización avanzada
 
+## **🎯 METODOLOGÍA FUNDAMENTAL**
+
+### **📚 PRINCIPIO CORE DEL CURSO:**
+**"NUNCA ENSEÑAR HERRAMIENTAS MANAGED SIN DOMINAR LOS FUNDAMENTOS"**
+
+#### **Progresión Natural:**
+```
+FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
+```
+
+#### **Ejemplo V1.0:**
+- Docker fundamentos → Docker Compose → AWS ECR
+- Linux básico → Comandos avanzados → AWS EC2  
+- Git básico → GitHub workflow → GitHub Actions
+
+#### **Ejemplo V2.0 (futuro):**
+- Kubernetes desde 0 → EKS → Karpenter
+- Terraform desde 0 → AWS CDK → CloudFormation
+- Serverless concepts → Lambda → API Gateway → SAM
+
+---
+
 ## **🔍 AUDITORÍA COMPLETA REALIZADA**
 
 ### **✅ VEREDICTO: COBERTURA 100% COMPLETA**
