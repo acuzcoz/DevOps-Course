@@ -3,7 +3,7 @@
 
 **Estudiante:** acuzcoz  
 **Fecha inicio:** 2025-09-14 (REINICIO CON METODOLOGÍA MEJORADA)  
-**Progreso actual:** 10% - Módulo 1: Lección 1 completada, Lección 2 en progreso
+**Progreso actual:** 15% - Módulo 1: Lección 1 ✅, Lección 2 ✅
 
 ---
 
@@ -522,18 +522,18 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 
 ### **PROGRESO ACTUAL**
 - **Módulos completados:** 0/6 (Módulo 1 en progreso: 60%)
-- **Lecciones completadas:** 1/22 (5%) - Lección 1 ✅, Lección 2 🔄
-- **Ejercicios integrados completados:** 2/22 (9%)
+- **Lecciones completadas:** 2/22 (9%) - Lección 1 ✅, Lección 2 ✅
+- **Ejercicios integrados completados:** 6/22 (27%)
 - **Proyectos en portfolio:** 1 (mi-primer-devops)
 
 ### **SKILLS DESARROLLADOS**
-- **🐳 Docker:** 30% (setup, hello-world, Dockerfile, build, run, gestión contenedores/imágenes)
-- **🐧 Linux:** 25% (navegación, archivos, estructura proyectos, comandos básicos)
-- **🐙 GitHub:** 30% (configuración, Git workflow, repositorios, versionado)
-- **☁️ AWS CLI:** 30% (instalación, SSO, exploración servicios, comandos básicos)
-- **🏗️ AWS EC2:** 15% (conceptos básicos, regiones, cuenta configurada)
+- **🐳 Docker:** 40% (setup, comandos básicos, gestión completa contenedores/imágenes, limpieza)
+- **🐧 Linux:** 30% (navegación, archivos, estructura proyectos, comandos integrados)
+- **🐙 GitHub:** 35% (configuración, Git workflow, repositorios, versionado, integración)
+- **☁️ AWS CLI:** 35% (instalación, SSO, exploración servicios, comandos básicos)
+- **🏗️ AWS EC2:** 20% (conceptos básicos, regiones, cuenta configurada, exploración)
 
-### **PROGRESO TOTAL:** 15% del curso integrado completo
+### **PROGRESO TOTAL:** 20% del curso integrado completo
 
 ---
 

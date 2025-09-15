@@ -2,7 +2,7 @@
 
 **Lección:** Comandos Docker Básicos  
 **Fecha:** 2025-09-14  
-**Estado:** 🔄 3/4 ejercicios completados
+**Estado:** ✅ 4/4 ejercicios completados
 
 ---
 
@@ -225,12 +225,12 @@ Deleted: sha256:07d4c428e5bd1876bbc1c2412d105f749f49898b64c684185c5123c73c8e9e7e
 
 ---
 
-## **🎯 EJERCICIO 4: Información del Sistema y Limpieza** ⏳
+## **🎯 EJERCICIO 4: Información del Sistema y Limpieza** ✅
 
 ### **Objetivo:**
 Aprender a monitorear el uso de espacio y realizar limpieza automática de recursos.
 
-### **Comandos a ejecutar:**
+### **Comandos ejecutados:**
 ```bash
 # 1. Ver uso de espacio en disco
 docker system df
@@ -242,20 +242,44 @@ docker system prune
 docker system df
 ```
 
-### **Estado:**
-🔄 **Pendiente de ejecución**
+### **Resultados obtenidos:**
 
-### **Conceptos a aprender:**
-- **docker system df:** Análisis de uso de espacio
-- **docker system prune:** Limpieza automática
-- **Recursos no utilizados:** Contenedores detenidos, imágenes sin tag, redes no utilizadas
-- **Optimización:** Mantenimiento regular del sistema Docker
+#### **Estado inicial:**
+```
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          5         3         269.6MB   156.1MB (57%)
+Containers      3         1         1.15kB    55B (4%)
+Local Volumes   0         0         0B        0B
+Build Cache     25        0         4.109kB   4.109kB
+```
+
+#### **Limpieza realizada:**
+- **Contenedores eliminados:** 2 (Ubuntu + hello-world)
+- **Build cache eliminado:** 8 objetos
+- **Espacio liberado:** 4.164kB
+
+#### **Estado final:**
+```
+TYPE            TOTAL     ACTIVE    SIZE      RECLAIMABLE
+Images          5         1         269.6MB   256.8MB (95%)
+Containers      1         1         1.095kB   0B (0%)
+Local Volumes   0         0         0B        0B
+Build Cache     17        0         0B        0B
+```
+
+### **Conceptos aprendidos:**
+- **docker system df:** Análisis de uso de espacio por categorías
+- **docker system prune:** Limpieza automática segura
+- **Recursos reclaimables:** Identificación de oportunidades de optimización
+- **Limpieza selectiva:** Solo elimina recursos no utilizados
+
+### **✅ Ejercicio 4 completado exitosamente**
 
 ---
 
 ## **📊 RESUMEN DE EJERCICIOS**
 
-### **Ejercicios completados: 3/4**
+### **Ejercicios completados: 4/4** ✅
 
 #### **✅ Ejercicio 1: Gestión Básica**
 - **Comandos:** `docker ps`, `docker run`

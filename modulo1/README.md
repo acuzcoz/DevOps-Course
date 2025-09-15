@@ -143,12 +143,12 @@ aws sts get-caller-identity --profile admin-mined-ext
 - **Archivos:** README.md, COMANDOS_APRENDIDOS.md
 
 ### **📚 [Lección 2: Comandos Docker Básicos](./leccion2/)**
-**Estado:** 🔄 **EN PROGRESO** (3/4 ejercicios completados)
+**Estado:** ✅ **COMPLETADA**
 - **Conceptos:** Gestión avanzada de contenedores e imágenes
 - **Ejercicios:** 4 ejercicios prácticos con troubleshooting real
-- **Comandos:** 10+ comandos con anatomía completa
-- **Archivos:** README.md, EJERCICIOS_PRACTICOS.md
-- **Pendiente:** Ejercicio 4 (system commands)
+- **Comandos:** 15+ comandos con anatomía completa
+- **Archivos:** README.md, EJERCICIOS_PRACTICOS.md, 4 ejercicios detallados
+- **Logros:** Gestión completa del ciclo de vida Docker
 
 ### **📚 Lección 3: Imágenes vs Contenedores**
 **Estado:** ⏳ **PENDIENTE**

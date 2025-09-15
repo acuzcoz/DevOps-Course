@@ -1,7 +1,7 @@
 # 📚 LECCIÓN 2: Comandos Docker Básicos
 
 **Fecha:** 2025-09-14  
-**Estado:** 🔄 **EN PROGRESO**  
+**Estado:** ✅ **COMPLETADA**  
 **Módulo:** 1 - Setup de Tecnologías Fundamentales  
 **Duración:** ~1.5 horas (estimado)
 
@@ -269,7 +269,7 @@ docker system prune
 - **nginx:** Eliminada durante ejercicios
 
 ### **Próximo ejercicio:**
-**Ejercicio 4:** Información del sistema y limpieza (`docker system df`, `docker system prune`)
+**✅ Ejercicio 4 COMPLETADO:** Información del sistema y limpieza (`docker system df`, `docker system prune`)
 
 ---
 
