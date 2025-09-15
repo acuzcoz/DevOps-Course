@@ -1,7 +1,7 @@
 # 📚 LECCIÓN 3: Imágenes vs Contenedores
 
 **Fecha:** 2025-09-14  
-**Estado:** ⏳ **PENDIENTE**  
+**Estado:** ✅ **COMPLETADA**  
 **Módulo:** 1 - Setup de Tecnologías Fundamentales  
 **Duración:** ~2 horas (estimado)
 

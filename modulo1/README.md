@@ -150,12 +150,13 @@ aws sts get-caller-identity --profile admin-mined-ext
 - **Archivos:** README.md, EJERCICIOS_PRACTICOS.md, 4 ejercicios detallados
 - **Logros:** Gestión completa del ciclo de vida Docker
 
-### **📚 Lección 3: Imágenes vs Contenedores**
-**Estado:** ⏳ **PENDIENTE**
-- **Conceptos:** Diferencias profundas, ciclo de vida
-- **Ejercicios:** Gestión avanzada de recursos
-- **Comandos:** Registry, tags, layers
-- **🔧 METODOLOGÍA:** Git workflow por comandos (desde esta lección)
+### **📚 [Lección 3: Imágenes vs Contenedores](./leccion3/)**
+**Estado:** ✅ **COMPLETADA**
+- **Conceptos:** Registry, layers, optimización práctica
+- **Ejercicios:** 4 ejercicios (3A-3D) con troubleshooting Git avanzado
+- **Skills:** Docker Hub, análisis de layers, optimización de imágenes
+- **Archivos:** README.md, 3 ejercicios detallados, troubleshooting completo
+- **Logros:** Registry y distribución dominados, Git workflow profesional
 
 ---
 

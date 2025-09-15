@@ -3,7 +3,7 @@
 
 **Estudiante:** acuzcoz  
 **Fecha inicio:** 2025-09-14 (REINICIO CON METODOLOGÍA MEJORADA)  
-**Progreso actual:** 15% - Módulo 1: Lección 1 ✅, Lección 2 ✅
+**Progreso actual:** 25% - Módulo 1: Lección 1 ✅, Lección 2 ✅, Lección 3 ✅
 
 ---
 
@@ -86,7 +86,7 @@ docker run -d -p 8080:80 --name mi-app nginx
 - **AWS CLI**: Configuración de credenciales y región
 - **AWS EC2**: Conceptos de instancias y regiones
 
-### **LECCIÓN 3: Imágenes vs Contenedores** ⏳
+### **LECCIÓN 3: Imágenes vs Contenedores + Registry** ✅
 **Conceptos fundamentales:**
 - ¿Qué es una imagen? (plantilla inmutable)
 - ¿Qué es un contenedor? (instancia ejecutable)
@@ -528,18 +528,18 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 
 ### **PROGRESO ACTUAL**
 - **Módulos completados:** 0/6 (Módulo 1 en progreso: 60%)
-- **Lecciones completadas:** 2/22 (9%) - Lección 1 ✅, Lección 2 ✅
-- **Ejercicios integrados completados:** 6/22 (27%)
-- **Proyectos en portfolio:** 1 (mi-primer-devops)
+- **Lecciones completadas:** 3/22 (14%) - Lección 1 ✅, Lección 2 ✅, Lección 3 ✅
+- **Ejercicios integrados completados:** 10/22 (45%)
+- **Proyectos en portfolio:** 1 (mi-primer-devops + versiones optimizadas)
 
 ### **SKILLS DESARROLLADOS**
-- **🐳 Docker:** 40% (setup, comandos básicos, gestión completa contenedores/imágenes, limpieza)
-- **🐧 Linux:** 30% (navegación, archivos, estructura proyectos, comandos integrados)
-- **🐙 GitHub:** 35% (configuración, Git workflow, repositorios, versionado, integración)
-- **☁️ AWS CLI:** 35% (instalación, SSO, exploración servicios, comandos básicos)
-- **🏗️ AWS EC2:** 20% (conceptos básicos, regiones, cuenta configurada, exploración)
+- **🐳 Docker:** 60% (setup, comandos, gestión, tags, registry, layers, optimización)
+- **🐧 Linux:** 40% (navegación, archivos, proyectos, comandos integrados, troubleshooting)
+- **🐙 GitHub:** 50% (configuración, workflow, repositorios, versionado, troubleshooting Git avanzado)
+- **☁️ AWS CLI:** 40% (instalación, SSO, exploración servicios, comandos básicos)
+- **🏗️ AWS EC2:** 25% (conceptos básicos, regiones, cuenta configurada, exploración)
 
-### **PROGRESO TOTAL:** 20% del curso integrado completo
+### **PROGRESO TOTAL:** 30% del curso integrado completo
 
 ---
 
