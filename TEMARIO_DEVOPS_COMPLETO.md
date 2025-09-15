@@ -668,16 +668,38 @@ FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
   - Drift detection
   - Service integration nativo
 
-#### **⚡ MÓDULO 10: SERVERLESS ECOSYSTEM**
-**Progresión:** `Functions concept → Lambda → API Gateway → SAM → Serverless Framework`
+#### **☁️ MÓDULO 10: AWS CLI MASTERY + SERVERLESS ECOSYSTEM**
+**Progresión:** `AWS CLI básico (V1.0 ✅) → AWS CLI Avanzado → Serverless → Multi-service Integration`
 
-- **Serverless Fundamentals:** Conceptos desde cero
-- **AWS Lambda:** Functions as a Service
-- **API Gateway:** API management y routing
-- **SAM:** Serverless Application Model
-- **Serverless Framework:** Multi-cloud serverless
+##### **ETAPA 1: AWS CLI Avanzado (Desde V1.0 base)**
+- **VPC Management:** Networking avanzado, subnets, route tables
+- **RDS Operations:** Bases de datos, backups, snapshots, multi-AZ
+- **Auto Scaling:** Grupos de escalado, políticas, métricas
+- **ELB Advanced:** Application Load Balancer, Network Load Balancer
+- **Route 53:** DNS management, health checks, routing policies
+- **Systems Manager:** Parameter Store, Session Manager, Patch Manager
 
-#### **📊 MÓDULO 11: OBSERVABILITY STACK COMPLETO**
+##### **ETAPA 2: Serverless con AWS CLI**
+- **Lambda Functions:** Deployment, configuration, layers
+- **API Gateway:** REST APIs, authentication, throttling
+- **SNS/SQS:** Messaging services, dead letter queues
+- **EventBridge:** Event-driven architectures
+- **Step Functions:** Workflow orchestration
+
+##### **ETAPA 3: Multi-service Integration**
+- **CloudFormation CLI:** Stack management, drift detection
+- **Cost Management:** Billing, budgets, cost optimization
+- **Multi-region:** Cross-region replication, disaster recovery
+- **Automation Scripts:** Advanced bash + AWS CLI integration
+
+#### **⚡ MÓDULO 11: SERVERLESS FRAMEWORKS**
+**Progresión:** `Serverless concepts → AWS SAM → Serverless Framework → CDK Serverless`
+
+- **AWS SAM:** Serverless Application Model desde fundamentos
+- **Serverless Framework:** Multi-cloud serverless deployment
+- **CDK Serverless:** Infrastructure + application code integration
+
+#### **📊 MÓDULO 12: OBSERVABILITY STACK COMPLETO**
 **Progresión:** `Monitoring basics (V1.0) → Prometheus → Grafana → ELK → Distributed Tracing`
 
 - **Prometheus:** Metrics collection desde fundamentos
@@ -686,7 +708,7 @@ FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
 - **AWS X-Ray:** Distributed tracing
 - **Integration:** Con EKS, ECS, Lambda
 
-#### **🔒 MÓDULO 12: DEVSECOPS + COMPLIANCE**
+#### **🔒 MÓDULO 13: DEVSECOPS + COMPLIANCE**
 **Progresión:** `Security basics (V1.0) → Advanced Scanning → Policy as Code → Compliance`
 
 - **Advanced Security Scanning:** SAST, DAST, dependency scanning
@@ -695,7 +717,7 @@ FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
 - **AWS Security Services:** GuardDuty, Security Hub, Config
 - **Compliance Automation:** SOC2, PCI-DSS, GDPR
 
-#### **🔄 MÓDULO 13: AWS DEVOPS NATIVE ECOSYSTEM**
+#### **🔄 MÓDULO 14: AWS DEVOPS NATIVE ECOSYSTEM**
 **Progresión:** `GitHub Actions (V1.0) → CodePipeline → CodeBuild → Integration`
 
 - **CodePipeline:** AWS native CI/CD desde conceptos
@@ -703,7 +725,7 @@ FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
 - **CodeCommit:** AWS Git repositories
 - **Integration:** GitHub Actions + AWS native tools
 
-#### **🎯 MÓDULO 14: SITE RELIABILITY ENGINEERING**
+#### **🎯 MÓDULO 15: SITE RELIABILITY ENGINEERING**
 **Progresión:** `Monitoring (V1.0) → SLI/SLO → Incident Response → Chaos Engineering`
 
 - **SLI/SLO/SLA:** Service level management
@@ -713,10 +735,12 @@ FUNDAMENTOS (desde 0) → AWS MANAGED SERVICES → ADVANCED TOOLS
 - **AWS Well-Architected:** Best practices framework
 
 ### **📊 V2.0 MÉTRICAS FINALES:**
-- **Duración:** 60-80 horas (metodología desde cero)
-- **Tecnologías:** 50+ herramientas con fundamentos sólidos
+- **Duración:** 70-90 horas (metodología desde cero + AWS CLI mastery)
+- **Módulos:** 15 módulos (vs 14 original)
+- **Tecnologías:** 60+ herramientas con fundamentos sólidos
+- **AWS CLI:** De intermedio (V1.0) a experto completo (V2.0)
 - **Progresión:** Fundamentos → AWS → Advanced en cada módulo
-- **Target:** Senior → Principal → Architect
+- **Target:** Senior → Principal → Architect → Distinguished Engineer
 
 ### **💰 POTENCIAL SALARIAL V2.0:**
 - **Senior DevOps Engineer:** $150K-$200K
