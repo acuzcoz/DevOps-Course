@@ -476,4 +476,135 @@ docker rm contenedor1 contenedor2
 
 ---
 
-*Ejercicio 2 completado: 2025-09-14 | Tags y versionado dominados | Gestión simultánea de versiones*
+## **🐙 GIT WORKFLOW PROFESIONAL**
+
+### **PASO 8: Documentación y versionado del ejercicio** ✅
+
+#### **Volver al directorio raíz del proyecto:**
+```bash
+cd ../../..
+│  │  │  │
+│  │  │  └── DevOps-Course (directorio raíz del repositorio)
+│  │  └── modulo1 (salir del módulo)
+│  └── leccion1 (salir de la lección)
+└── mi-primer-devops (salir del proyecto específico)
+```
+
+#### **Verificar estado del repositorio:**
+```bash
+git status
+│   │
+│   └── Subcomando: mostrar estado actual del repositorio Git
+└── Comando: Git CLI
+```
+
+**Propósito:** Verificar qué archivos han sido modificados o creados
+
+#### **Agregar archivos al staging area:**
+```bash
+git add .
+│   │   │
+│   │   └── Argumento: todos los archivos del directorio actual y subdirectorios
+│   └── Subcomando: preparar archivos para commit (staging area)
+└── Comando: Git CLI
+```
+
+**Propósito:** Preparar todos los cambios (documentación nueva) para el commit
+
+#### **Crear commit con mensaje descriptivo:**
+```bash
+git commit -m "feat(leccion3): ejercicio 2 completado - gestión de tags
+
+- Creadas 3 versiones: latest, v1.0, development
+- Demostración: múltiples contenedores simultáneos con diferentes tags
+- Verificación: todas las versiones funcionando en puertos diferentes
+- Documentación: ejercicio detallado con anatomía completa
+- Concepto: tags para versionado profesional de aplicaciones"
+│   │      │  │
+│   │      │  └── Mensaje: descripción detallada del ejercicio completado
+│   │      └── Flag: message (especificar mensaje del commit)
+│   └── Subcomando: confirmar cambios en repositorio local
+└── Comando: Git CLI
+```
+
+#### **Resultado del commit:**
+```
+[main 3b28878] feat(leccion3): ejercicio 2 completado - gestión de tags
+ 1 file changed, 479 insertions(+)
+ create mode 100644 modulo1/leccion3/EJERCICIO2_DETALLADO.md
+```
+
+#### **Análisis del commit:**
+- ✅ **Commit exitoso:** Hash `3b28878`
+- ✅ **1 archivo cambiado:** EJERCICIO2_DETALLADO.md
+- ✅ **479 líneas agregadas:** Documentación completa
+- ✅ **Archivo creado:** Nuevo archivo de documentación
+
+#### **Sincronizar con GitHub:**
+```bash
+git push origin main
+│   │    │      │
+│   │    │      └── Branch: main (rama principal del repositorio)
+│   │    └── Repositorio remoto: origin (GitHub)
+│   └── Subcomando: subir cambios al repositorio remoto
+└── Comando: Git CLI
+```
+
+#### **Resultado del push:**
+```
+Enumerando objetos: 8, listo.
+Contando objetos: 100% (8/8), listo.
+Compresión delta usando hasta 8 hilos
+Comprimiendo objetos: 100% (5/5), listo.
+Escribiendo objetos: 100% (5/5), 5.50 KiB | 5.50 MiB/s, listo.
+Total 5 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/acuzcoz/DevOps-Course.git
+   615a7d3..3b28878  main -> main
+```
+
+#### **Análisis del push:**
+- ✅ **5 objetos escritos:** 5.50 KiB transferidos
+- ✅ **Compresión delta:** Optimización aplicada
+- ✅ **Push exitoso:** `615a7d3..3b28878 main -> main`
+- ✅ **Repositorio sincronizado:** Cambios disponibles en GitHub
+
+### **Convenciones de commits utilizadas:**
+
+#### **Formato del mensaje:**
+```
+tipo(scope): descripción breve
+
+- Detalle 1
+- Detalle 2
+- Detalle 3
+- Concepto aprendido
+```
+
+#### **Tipos de commits:**
+- **feat:** Nueva funcionalidad o ejercicio completado
+- **docs:** Actualización de documentación
+- **fix:** Corrección de errores
+- **refactor:** Mejora de código sin cambiar funcionalidad
+
+#### **Scope (alcance):**
+- **leccion3:** Indica que el cambio pertenece a la lección 3
+- **ejercicio2:** Específicamente el ejercicio 2 de gestión de tags
+
+### **Workflow profesional aplicado:**
+1. **Desarrollo:** Completar ejercicio práctico
+2. **Documentación:** Crear documentación detallada
+3. **Staging:** `git add .` para preparar cambios
+4. **Commit:** `git commit -m` con mensaje descriptivo
+5. **Sincronización:** `git push origin main` para subir a GitHub
+6. **Verificación:** Confirmar que cambios están en repositorio remoto
+
+### **Beneficios del workflow:**
+- **Trazabilidad:** Cada ejercicio documentado y versionado
+- **Colaboración:** Cambios disponibles para otros desarrolladores
+- **Backup:** Código y documentación respaldados en GitHub
+- **Historial:** Progreso del curso completamente rastreado
+
+---
+
+*Ejercicio 2 completado: 2025-09-14 | Tags y versionado dominados | Git workflow profesional aplicado*
