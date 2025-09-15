@@ -132,6 +132,32 @@ aws sts get-caller-identity --profile admin-mined-ext
 
 ---
 
+## **📁 ESTRUCTURA DE LECCIONES**
+
+### **📚 [Lección 1: ¿Qué es Docker? + Setup Completo](./leccion1/)**
+**Estado:** ✅ **COMPLETADA**
+- **Conceptos:** Docker fundamentals, diferencias con VMs
+- **Setup:** 4 tecnologías configuradas y verificadas
+- **Ejercicio integrado:** "Mi Primer DevOps Setup"
+- **Comandos:** 20 comandos con anatomía completa
+- **Archivos:** README.md, COMANDOS_APRENDIDOS.md
+
+### **📚 [Lección 2: Comandos Docker Básicos](./leccion2/)**
+**Estado:** 🔄 **EN PROGRESO** (3/4 ejercicios completados)
+- **Conceptos:** Gestión avanzada de contenedores e imágenes
+- **Ejercicios:** 4 ejercicios prácticos con troubleshooting real
+- **Comandos:** 10+ comandos con anatomía completa
+- **Archivos:** README.md, EJERCICIOS_PRACTICOS.md
+- **Pendiente:** Ejercicio 4 (system commands)
+
+### **📚 Lección 3: Imágenes vs Contenedores**
+**Estado:** ⏳ **PENDIENTE**
+- **Conceptos:** Diferencias profundas, ciclo de vida
+- **Ejercicios:** Gestión avanzada de recursos
+- **Comandos:** Registry, tags, layers
+
+---
+
 ## **🎯 EJERCICIO INTEGRADO COMPLETADO** ✅
 
 ### **"Mi Primer DevOps Setup"**
