@@ -132,19 +132,57 @@ aws sts get-caller-identity --profile admin-mined-ext
 
 ---
 
+## **🎯 EJERCICIO INTEGRADO COMPLETADO** ✅
+
+### **"Mi Primer DevOps Setup"**
+**Proyecto que integra las 4 tecnologías fundamentales:**
+
+#### **🐧 Linux - Gestión de archivos:**
+- ✅ Estructura creada: `mkdir -p mi-primer-devops/{src,docs}`
+- ✅ Navegación: `cd`, `ls -la`
+- ✅ Creación de archivos: `touch Dockerfile`
+
+#### **🐳 Docker - Containerización:**
+- ✅ Dockerfile creado (FROM nginx:alpine, COPY, EXPOSE)
+- ✅ Imagen construida: `docker build -t mi-devops-app .`
+- ✅ Contenedor funcionando: http://localhost:3000
+- ✅ Troubleshooting: Puertos ocupados, nombres de contenedores
+
+#### **🐙 GitHub - Versionado:**
+- ✅ Repositorio inicializado: `git init`
+- ✅ Branch moderno: `git branch -m main`
+- ✅ Código subido: `git add .`, `git commit`, `git push`
+- ✅ .gitignore configurado
+
+#### **☁️ AWS CLI - Exploración cloud:**
+- ✅ Regiones EC2 listadas: 20+ regiones disponibles
+- ✅ Identidad confirmada: Usuario `ancuzcoz`, Cuenta `021891597458`
+- ✅ Perfil SSO funcionando correctamente
+
+**Ubicación:** `modulo1/mi-primer-devops/`  
+**Documentación:** [EJERCICIO_INTEGRADO_RESUMEN.md](./EJERCICIO_INTEGRADO_RESUMEN.md)
+
+---
+
 ## **📊 PROGRESO DEL MÓDULO**
 
-### **✅ Tecnologías completamente configuradas:**
-- **🐳 Docker:** Versión 28.4.0 instalada y verificada
-- **🐙 GitHub:** Usuario `acuzcoz` configurado y autenticado
-- **☁️ AWS CLI:** Versión 2.30.1 con SSO configurado (perfil: admin-mined-ext)
-- **🐧 Linux:** Comandos disponibles y documentados
+### **✅ Tecnologías completamente configuradas y probadas:**
+- **🐳 Docker:** Instalado, verificado y usado en proyecto real
+- **🐙 GitHub:** Configurado, autenticado y código subido
+- **☁️ AWS CLI:** Configurado con SSO, servicios explorados
+- **🐧 Linux:** Comandos básicos practicados en proyecto real
 
 ### **✅ Verificaciones exitosas:**
-- Docker ejecuta contenedores correctamente
-- GitHub CLI puede crear repositorios
-- AWS CLI conecta con cuenta real (SSO)
-- Terminal con comandos Linux funcionales
+- Docker ejecuta contenedores y construye imágenes
+- GitHub CLI puede crear repositorios y subir código
+- AWS CLI conecta con cuenta real y explora servicios
+- Terminal con comandos Linux funcionales para proyectos
+
+### **✅ Problemas resueltos:**
+- Docker: Puertos ocupados, nombres de contenedores
+- Git: Branch master → main, repositorios remotos
+- AWS: Token expirado → SSO login
+- Troubleshooting real con soluciones aplicadas
 
 ---
 
