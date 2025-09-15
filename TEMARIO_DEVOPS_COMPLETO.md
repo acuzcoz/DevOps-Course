@@ -3,7 +3,7 @@
 
 **Estudiante:** acuzcoz  
 **Fecha inicio:** 2025-09-14 (REINICIO CON METODOLOGÍA MEJORADA)  
-**Progreso actual:** 5% - Módulo 1 completado
+**Progreso actual:** 10% - Módulo 1: Lección 1 completada, Lección 2 en progreso
 
 ---
 
@@ -37,7 +37,7 @@ comando subcomando --flag argumento
 
 ## **MÓDULO 1: FUNDAMENTOS ABSOLUTOS** ⏳
 
-### **LECCIÓN 1: ¿Qué es Docker?** ⏳
+### **LECCIÓN 1: ¿Qué es Docker? + Setup Completo** ✅
 **Conceptos desde cero:**
 - ¿Qué problema resuelve Docker?
 - Diferencia: Máquina Virtual vs Contenedor
@@ -521,19 +521,19 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 ## **📊 ESTADÍSTICAS DE PROGRESO**
 
 ### **PROGRESO ACTUAL**
-- **Módulos completados:** 0/6
-- **Lecciones completadas:** 0/22
-- **Ejercicios integrados completados:** 0/22
-- **Proyectos en portfolio:** 0
+- **Módulos completados:** 0/6 (Módulo 1 en progreso: 60%)
+- **Lecciones completadas:** 1/22 (5%) - Lección 1 ✅, Lección 2 🔄
+- **Ejercicios integrados completados:** 2/22 (9%)
+- **Proyectos en portfolio:** 1 (mi-primer-devops)
 
-### **SKILLS OBJETIVO**
-- **🐳 Docker:** Desde hello-world hasta orquestación
-- **🐧 Linux:** Desde ls hasta administración de servidores
-- **🐙 GitHub:** Desde git init hasta CI/CD enterprise
-- **☁️ AWS CLI:** Desde configure hasta automatización completa
-- **🏗️ AWS EC2:** Desde instancia básica hasta arquitecturas escalables
+### **SKILLS DESARROLLADOS**
+- **🐳 Docker:** 30% (setup, hello-world, Dockerfile, build, run, gestión contenedores/imágenes)
+- **🐧 Linux:** 25% (navegación, archivos, estructura proyectos, comandos básicos)
+- **🐙 GitHub:** 30% (configuración, Git workflow, repositorios, versionado)
+- **☁️ AWS CLI:** 30% (instalación, SSO, exploración servicios, comandos básicos)
+- **🏗️ AWS EC2:** 15% (conceptos básicos, regiones, cuenta configurada)
 
-### **PROGRESO TOTAL:** 0% - ¡Empezando la aventura DevOps!
+### **PROGRESO TOTAL:** 15% del curso integrado completo
 
 ---
 

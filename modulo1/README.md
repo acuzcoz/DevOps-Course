@@ -185,8 +185,8 @@ aws sts get-caller-identity --profile admin-mined-ext
 - ✅ Identidad confirmada: Usuario `ancuzcoz`, Cuenta `021891597458`
 - ✅ Perfil SSO funcionando correctamente
 
-**Ubicación:** `modulo1/mi-primer-devops/`  
-**Documentación:** [EJERCICIO_INTEGRADO_RESUMEN.md](./EJERCICIO_INTEGRADO_RESUMEN.md)
+**Ubicación:** `modulo1/leccion1/mi-primer-devops/`  
+**Documentación:** [EJERCICIO_INTEGRADO_DETALLADO.md](./leccion1/EJERCICIO_INTEGRADO_DETALLADO.md)
 
 ---
 
