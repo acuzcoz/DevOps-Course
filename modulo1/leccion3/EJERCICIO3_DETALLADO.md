@@ -507,18 +507,212 @@ curl http://localhost:puerto/archivo  # Verificar funcionalidad
 
 ---
 
-## **🔧 TROUBLESHOOTING APLICADO**
+## **🔧 TROUBLESHOOTING GIT AVANZADO**
 
-### **Error de contexto de build:**
-- **Problema:** `"/src/index.html": not found`
-- **Causa:** Dockerfile en directorio sin estructura src/
-- **Solución:** Copiar proyecto completo con `cp -r`
-- **Aprendizaje:** Contexto de build debe contener archivos referenciados
+### **Problema: Repositorio Git Embebido**
 
-### **Gestión de archivos:**
-- **Estrategia:** Copiar proyecto completo vs archivos individuales
-- **Organización:** Crear directorio específico para ejercicio
-- **Estructura:** Mantener organización clara de archivos
+#### **Situación encontrada:**
+Al ejecutar `git add .` apareció esta advertencia:
+```
+advertencia: agregando repositorio de git embebido: modulo1/leccion3/EJERCICIO-3D/mi-primer-devops
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+```
+
+#### **Causa del problema:**
+```bash
+cp -r ../../leccion1/mi-primer-devops ./
+```
+**Copiamos TODO el directorio, incluyendo la carpeta `.git/` oculta**
+
+#### **Estructura problemática:**
+```
+DevOps-Course/.git/                    ← Repositorio principal
+└── modulo1/leccion3/EJERCICIO-3D/
+    └── mi-primer-devops/.git/         ← Repositorio embebido (problema)
+```
+
+#### **¿Por qué es problemático?**
+- **Conflicto:** Dos repositorios Git en jerarquía padre-hijo
+- **Confusión:** Git no sabe cuál repositorio gestionar
+- **Clonado:** Otros usuarios no obtendrán el contenido embebido
+- **Historial:** Historiales Git separados causan inconsistencias
+
+### **🔧 TRES SOLUCIONES EXPLICADAS**
+
+#### **SOLUCIÓN 1: Eliminar .git embebido (RECOMENDADA)**
+
+##### **Comando:**
+```bash
+rm -rf modulo1/leccion3/EJERCICIO-3D/mi-primer-devops/.git
+│  │   │                                                    │
+│  │   │                                                    └── Carpeta .git específica a eliminar
+│  │   └── Flag: recursive + force (eliminar todo el contenido sin confirmación)
+│  └── Flag: recursive (para directorios y subdirectorios)
+└── Comando: remove (eliminar archivos/directorios)
+```
+
+##### **Ventajas:**
+- ✅ **Solución inmediata:** Problema resuelto instantáneamente
+- ✅ **Limpieza total:** No interfiere con repositorio principal
+- ✅ **Archivos preservados:** Solo elimina .git/, mantiene código
+- ✅ **Simplicidad:** Una línea de comando
+
+##### **Desventajas:**
+- ❌ **Pérdida de historial:** Se pierde el historial Git del proyecto copiado
+- ❌ **No reversible:** Una vez eliminado, no se puede recuperar fácilmente
+
+##### **Cuándo usar:** Cuando el proyecto copiado es solo para referencia/ejercicio
+
+---
+
+#### **SOLUCIÓN 2: Usar .gitignore**
+
+##### **Comando:**
+```bash
+echo ".git/" >> modulo1/leccion3/EJERCICIO-3D/.gitignore
+│    │        │                                      │
+│    │        │                                      └── Archivo .gitignore en directorio específico
+│    │        └── Patrón: ignorar cualquier carpeta llamada .git/
+│    └── Contenido a agregar al final del archivo
+└── Comando: agregar línea al archivo (crear si no existe)
+```
+
+##### **Cómo funciona:**
+- Git lee .gitignore y excluye patrones especificados
+- La carpeta .git/ embebida existe pero Git la ignora
+- No se incluye en commits ni en git status
+
+##### **Ventajas:**
+- ✅ **Preserva historial:** Mantiene .git/ del proyecto copiado
+- ✅ **No destructivo:** No elimina nada permanentemente
+- ✅ **Reversible:** Se puede deshacer editando .gitignore
+- ✅ **Selectivo:** Solo ignora .git/, no otros archivos
+
+##### **Desventajas:**
+- ❌ **Espacio en disco:** Carpeta .git/ sigue ocupando espacio
+- ❌ **Confusión potencial:** Desarrolladores pueden no entender por qué hay .git/
+- ❌ **Complejidad:** Agrega capa adicional de configuración
+
+##### **Cuándo usar:** Cuando necesitas mantener el historial del proyecto copiado
+
+---
+
+#### **SOLUCIÓN 3: Git Submodule (PROFESIONAL)**
+
+##### **Comando:**
+```bash
+git submodule add https://github.com/usuario/mi-primer-devops.git modulo1/leccion3/EJERCICIO-3D/mi-primer-devops
+│   │         │   │                                              │
+│   │         │   │                                              └── Ruta local donde colocar el submodule
+│   │         │   └── URL del repositorio remoto (debe existir en GitHub)
+│   │         └── Subcomando: agregar submódulo
+│   └── Recurso: submódulo (repositorio dentro de repositorio)
+└── Comando: Git CLI
+```
+
+##### **Qué es un submodule:**
+- **Definición:** Repositorio Git independiente referenciado desde otro repositorio
+- **Funcionamiento:** Apunta a commit específico del repositorio externo
+- **Gestión:** Cada submodule se actualiza independientemente
+- **Uso profesional:** Común en proyectos grandes con dependencias
+
+##### **Archivos creados:**
+```bash
+.gitmodules  # Configuración de submodules
+modulo1/leccion3/EJERCICIO-3D/mi-primer-devops/  # Contenido del submodule
+```
+
+##### **Ventajas:**
+- ✅ **Gestión profesional:** Estándar de la industria para dependencias
+- ✅ **Historial completo:** Mantiene historial independiente
+- ✅ **Actualizaciones controladas:** Puedes elegir qué versión usar
+- ✅ **Colaboración:** Otros desarrolladores obtienen la configuración correcta
+- ✅ **Versionado:** Cada commit del proyecto principal referencia commit específico del submodule
+
+##### **Desventajas:**
+- ❌ **Complejidad alta:** Requiere entender conceptos avanzados de Git
+- ❌ **URL requerida:** Necesita repositorio remoto accesible
+- ❌ **Comandos adicionales:** `git submodule update --init --recursive`
+- ❌ **Curva de aprendizaje:** Más difícil para principiantes
+
+##### **Comandos adicionales necesarios:**
+```bash
+# Clonar repositorio con submodules
+git clone --recursive <url>
+
+# Actualizar submodules existentes
+git submodule update --init --recursive
+
+# Actualizar submodule a última versión
+cd submodule_directory
+git pull origin main
+cd ..
+git add submodule_directory
+git commit -m "update submodule"
+```
+
+##### **Cuándo usar:** En proyectos profesionales con dependencias externas que necesitan versionado independiente
+
+---
+
+### **🎯 DECISIÓN PARA NUESTRO CASO**
+
+#### **Contexto del ejercicio:**
+- **Propósito:** Aprendizaje y práctica
+- **Proyecto copiado:** Solo para demostración de optimización
+- **Historial:** No crítico mantener historial del proyecto copiado
+- **Simplicidad:** Preferimos solución directa
+
+#### **Solución elegida: SOLUCIÓN 1**
+**Razón:** Eliminar .git embebido es la más apropiada para ejercicios de aprendizaje
+
+#### **Comando a ejecutar:**
+```bash
+rm -rf modulo1/leccion3/EJERCICIO-3D/mi-primer-devops/.git
+```
+
+#### **Verificación posterior:**
+```bash
+git status  # Debe mostrar archivos normales, sin advertencias
+```
+
+---
+
+## **💡 LECCIONES APRENDIDAS**
+
+### **Prevención futura:**
+```bash
+# En lugar de copiar todo:
+cp -r directorio ./
+
+# Copiar solo contenido, excluyendo .git:
+rsync -av --exclude='.git' directorio/ ./nuevo_directorio/
+```
+
+### **Comando rsync explicado:**
+```bash
+rsync -av --exclude='.git' source/ destination/
+│     │   │              │      │
+│     │   │              │      └── Directorio destino
+│     │   │              └── Patrón a excluir
+│     │   └── Flag: exclude (excluir archivos/directorios)
+│     └── Flags: -a (archive, preserva permisos) -v (verbose, muestra progreso)
+└── Comando: remote sync (sincronización avanzada de archivos)
+```
+
+### **Detección temprana:**
+```bash
+# Verificar si directorio tiene .git antes de copiar:
+ls -la directorio/ | grep "\.git"
+
+# Si existe .git, usar rsync en lugar de cp
+```
+
+---
+
+*Troubleshooting Git avanzado documentado: 2025-09-15 | Repositorios embebidos | 3 soluciones explicadas*
 
 ---
 
