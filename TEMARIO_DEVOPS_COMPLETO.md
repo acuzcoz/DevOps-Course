@@ -563,11 +563,11 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 
 ## **🚀 PRÓXIMO PASO**
 
-### **MÓDULO 1, LECCIÓN 1: ¿Qué es Docker?**
-- Conceptos fundamentales desde cero
-- Instalación paso a paso
-- Primer comando con anatomía completa
-- Setup completo: Docker + Git + GitHub + AWS CLI + AWS
+### **MÓDULO 2, LECCIÓN 4: Anatomía de Dockerfile** 🔄
+- Creación de Dockerfiles desde cero absoluto
+- Instrucciones fundamentales con anatomía completa
+- Optimización y mejores prácticas profesionales
+- Integración con Git workflow establecido
 
 ---
 
