@@ -3,7 +3,7 @@
 
 **Estudiante:** acuzcoz  
 **Fecha inicio:** 2025-09-14 (REINICIO CON METODOLOGÍA MEJORADA)  
-**Progreso actual:** 32% - Módulo 1: ✅ COMPLETADO | Módulo 2: Lección 4 ⏳ (1/3 ejercicios)
+**Progreso actual:** 14% - Módulo 1: ✅ COMPLETADO | Módulo 2: Lección 4 ⏳ (1/3 ejercicios)
 
 ---
 
@@ -544,11 +544,32 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 
 ## **📊 ESTADÍSTICAS DE PROGRESO**
 
-### **PROGRESO ACTUAL**
-- **Módulos completados:** 0/6 (Módulo 1 en progreso: 60%)
-- **Lecciones completadas:** 3/22 (14%) - Lección 1 ✅, Lección 2 ✅, Lección 3 ✅
-- **Ejercicios integrados completados:** 10/22 (45%)
-- **Proyectos en portfolio:** 1 (mi-primer-devops + versiones optimizadas)
+### **PROGRESO ACTUAL - METODOLOGÍA REAL**
+- **Módulos completados:** 1/6 (17%) - Módulo 1 ✅ COMPLETADO
+- **Lecciones completadas:** 3/24 (13%) - Lección 1 ✅, Lección 2 ✅, Lección 3 ✅
+- **Ejercicios completados:** 9/65 (14%) - 8 M1 + 1 M2
+- **Proyectos en portfolio:** 2 (mi-primer-devops + mi-primer-dockerfile)
+
+### **DESGLOSE POR MÓDULO:**
+- **Módulo 1:** 8/8 ejercicios (100%) ✅
+- **Módulo 2:** 1/9 ejercicios (11%) ⏳
+- **Módulo 3:** 0/12 ejercicios (0%) ⏳
+- **Módulo 4:** 0/12 ejercicios (0%) ⏳
+- **Módulo 5:** 0/12 ejercicios (0%) ⏳
+- **Módulo 6:** 0/12 ejercicios (0%) ⏳
+
+### **🔧 METODOLOGÍA REAL APLICADA**
+**Ejercicios progresivos pequeños vs ejercicios integrados grandes**
+- **Mejor granularidad:** Progreso más preciso y realista
+- **Aprendizaje gradual:** Conceptos paso a paso
+- **Documentación detallada:** Cada ejercicio con anatomía completa
+- **Git workflow:** Aplicado consistentemente
+
+### **📊 ESTRUCTURA DE EJERCICIOS:**
+- **Módulo 1:** 1 + 4 + 3 = 8 ejercicios (estructura variable)
+- **Módulos 2-6:** 3 ejercicios por lección (estructura consistente)
+- **Total:** 65 ejercicios progresivos
+- **Cada ejercicio:** ~1.5% del curso
 
 ### **SKILLS DESARROLLADOS**
 - **🐳 Docker:** 100% (setup, comandos, gestión, tags, registry, layers, optimización, security)
