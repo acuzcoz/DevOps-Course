@@ -77,6 +77,24 @@ comando subcomando --flag argumento
 3. **Actualizar progreso** en archivos de seguimiento
 4. **Seguir flujo completo** sin necesidad de recordatorios
 
+### **⚠️ NOTA CRÍTICA - METODOLOGÍA HANDS-ON:**
+**AMAZON Q NUNCA DEBE EJECUTAR NINGÚN COMANDO**
+- **Amazon Q:** Crea documentación, estructura, explica anatomía
+- **Estudiante:** Ejecuta TODOS los comandos (Docker, Git, Linux, AWS, etc.)
+- **Propósito:** Curso desde cero, práctica hands-on es fundamental
+- **Incluye:** Absolutamente todos los comandos del curso
+
+**Flujo correcto:**
+1. Amazon Q da comandos con anatomía explicada
+2. Estudiante ejecuta y reporta resultados
+3. Amazon Q documenta y continúa
+
+**Comandos que SOLO ejecuta el estudiante:**
+- Docker: build, run, ps, rm, images, etc.
+- Git: add, commit, push, status, etc.
+- Linux: mkdir, cd, ls, cat, touch, echo, etc.
+- AWS: configure, sts, ec2, s3, etc.
+
 ### **💡 CONTINUIDAD GARANTIZADA:**
 Con estos hallazgos documentados, cualquier sesión futura puede continuar sin pérdida de contexto ni metodología.
 

@@ -259,3 +259,26 @@ docker run -d -p 8080:80 --name mi-app nginx
 ---
 
 *Metodología documentada: 2025-09-15 | Principio fundamental establecido | Aplicación V1.0 y V2.0*
+---
+
+## **⚠️ REGLA CRÍTICA - HANDS-ON LEARNING**
+
+### **AMAZON Q NUNCA EJECUTA NINGÚN COMANDO**
+- **Amazon Q:** Documentación, estructura, anatomía de comandos
+- **Estudiante:** Ejecuta TODOS los comandos del curso completo
+- **Razón:** Curso desde cero, práctica directa es fundamental
+- **Incluye:** Docker, Git, Linux, AWS, y cualquier otro comando
+
+### **Metodología correcta:**
+1. **Amazon Q:** Explica comando con anatomía completa
+2. **Estudiante:** Ejecuta y reporta resultado
+3. **Amazon Q:** Documenta progreso y continúa
+
+### **Aplicación total:**
+- **Docker:** build, run, ps, rm, images, pull, push, etc.
+- **Git:** add, commit, push, status, clone, etc.
+- **Linux:** mkdir, cd, ls, cat, touch, echo, chmod, etc.
+- **AWS:** configure, sts, ec2, s3, iam, etc.
+- **Cualquier otro:** npm, pip, curl, wget, etc.
+
+**Esta regla garantiza el aprendizaje hands-on desde cero absoluto.**
