@@ -114,6 +114,14 @@ comando subcomando --flag argumento
 - **Módulo 2:** 1/9 ejercicios (11%) ⏳
 - **Total curso:** 9/65 ejercicios (14%) ⏳
 
+### **🎯 METODOLOGÍA DE ÉLITE APLICADA:**
+- **Construcción guiada:** Estudiante crea archivos paso a paso
+- **Análisis Dev→DevOps:** Qué entregan vs qué agregas
+- **Pensamiento crítico:** WHY de cada decisión técnica
+- **Troubleshooting real:** Escenarios de producción
+- **Validación práctica:** Testing conjunto y optimización
+- **REGLA CRÍTICA:** Solo preguntar lo que ya se explicó y practicó
+
 ### **💡 CONTINUIDAD GARANTIZADA:**
 Con estos hallazgos documentados, cualquier sesión futura puede continuar sin pérdida de contexto ni metodología.
 

@@ -6,6 +6,28 @@
 
 ---
 
+## **🎯 METODOLOGÍA DE ÉLITE DEVOPS**
+
+### **📋 COBERTURA DE PROCESO DE APRENDIZAJE:**
+✅ **Explicación de conceptos:** Fundamentos profundos + anatomía completa  
+✅ **Construcción guiada:** Estudiante construye archivos paso a paso  
+✅ **Validación práctica:** Testing conjunto y troubleshooting real  
+✅ **Resolución de problemas:** Escenarios de producción y pensamiento crítico  
+
+### **🔍 COBERTURA ANÁLISIS DEV → DEVOPS:**
+✅ **Entregables de developers:** Código, package.json, README, tests  
+✅ **Agregados por DevOps:** Dockerfile, CI/CD, monitoring, security  
+✅ **Modificaciones producción:** ENV vars, health checks, optimization  
+✅ **Decisiones críticas:** Performance vs security, cost vs reliability  
+
+### **💡 COBERTURA PENSAMIENTO CRÍTICO:**
+✅ **Preguntas fundamentales:** Por qué, cuándo, cómo, qué impacto  
+✅ **Evaluación sistemática:** Matriz de decisión y trade-offs  
+✅ **Alternativas técnicas:** Comparación objetiva de opciones  
+✅ **Documentación decisiones:** Justificación y registro sistemático  
+
+---
+
 ## **🥇 LECCIÓN 10.5: Cron Jobs y Automatización**
 
 ### **🎯 OBJETIVO:**

@@ -565,6 +565,34 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 - **Documentación detallada:** Cada ejercicio con anatomía completa
 - **Git workflow:** Aplicado consistentemente
 
+### **🎯 METODOLOGÍA DE ÉLITE DEVOPS**
+**Construcción guiada para DevOps de clase mundial:**
+
+#### **📋 PROCESO DE APRENDIZAJE:**
+- **Amazon Q explica conceptos** (fundamentos profundos + WHY)
+- **Estudiante construye archivos** (hands-on real paso a paso)
+- **Probamos juntos** (validación práctica + troubleshooting)
+- **Estudiante resuelve problemas** (escenarios reales)
+- **REGLA CRÍTICA:** Solo preguntar lo que ya se explicó y practicó
+
+#### **🔍 ANÁLISIS DE ENTREGABLES DEV → DEVOPS:**
+- **Qué entregan developers:** Código fuente, package.json básico, README
+- **Qué agregas como DevOps:** Dockerfile, CI/CD, monitoring, security
+- **Qué modificas para producción:** Optimizaciones, variables ENV, health checks
+- **Decisiones críticas:** Performance vs security, cost vs reliability
+
+#### **💡 PENSAMIENTO CRÍTICO:**
+- **¿Por qué** esta solución vs alternativas?
+- **¿Cuándo** usar cada approach?
+- **¿Cómo** detectar y prevenir problemas?
+- **¿Qué** impacto tiene cada decisión?
+
+#### **🚀 ESCENARIOS REALES:**
+- **Problemas comunes** y resolución sistemática
+- **Trade-offs** entre opciones técnicas
+- **Best practices** vs quick fixes
+- **Troubleshooting** metodológico
+
 ### **📊 ESTRUCTURA DE EJERCICIOS:**
 - **Módulo 1:** 1 + 4 + 3 = 8 ejercicios (estructura variable)
 - **Módulos 2-6:** 3 ejercicios por lección (estructura consistente)

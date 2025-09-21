@@ -7,6 +7,25 @@
 
 ---
 
+## **🎯 METODOLOGÍA DE ÉLITE DEVOPS**
+
+### **📋 APRENDIZAJE GUIADO:**
+- **Amazon Q explica** fundamentos profundos (WHY + HOW)
+- **Estudiante construye** archivos paso a paso
+- **Validación práctica** conjunta con troubleshooting
+- **Resolución de problemas** reales y escenarios
+
+### **🔍 ANÁLISIS DEV → DEVOPS:**
+- **Qué entregan developers** vs **qué agregas como DevOps**
+- **Modificaciones para producción** y optimizaciones
+- **Decisiones críticas** con justificación técnica
+- **Pensamiento crítico** sistemático
+
+### **🚀 OBJETIVO:**
+**DevOps de élite que entiende el WHY, no solo el HOW**
+
+---
+
 ## **🎯 ¿QUÉ HACE ÚNICO ESTE CURSO?**
 
 ### **📚 ANATOMÍA COMPLETA DE COMANDOS**
