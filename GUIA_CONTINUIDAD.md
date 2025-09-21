@@ -1,8 +1,8 @@
 # 🔄 GUÍA DE CONTINUIDAD DEL CURSO DEVOPS
 
 **Estudiante:** acuzcoz  
-**Última sesión:** 2025-09-16  
-**Progreso actual:** 14% del curso completado
+**Última sesión:** 2025-09-21  
+**Progreso actual:** 15.5% del curso completado
 
 ---
 
@@ -10,16 +10,17 @@
 
 ### **✅ COMPLETADO:**
 - **Módulo 1:** 100% (8/8 ejercicios)
-- **Módulo 2:** 11% (1/9 ejercicios)
-- **Ejercicios totales:** 9/65 (14%)
-- **Skills Docker:** 75% (Dockerfile básico dominado)
+- **Módulo 2:** 22% (2/9 ejercicios)
+- **Ejercicios totales:** 10/65 (15.5%)
+- **Skills Docker:** 85% (Dockerfile intermedio dominado)
 - **Git workflow:** Profesional dominado
+- **Metodología de élite:** 100% aplicada
 
 ### **⏳ PRÓXIMO PASO:**
-**MÓDULO 2: LECCIÓN 4 - EJERCICIO 2**
-- Dockerfile intermedio con Node.js + Express
-- Instrucciones: RUN, WORKDIR, ENV
-- API REST funcionando en contenedor
+**MÓDULO 2: LECCIÓN 4 - EJERCICIO 3**
+- Variables ENV para configuración por ambientes
+- Multi-stage builds para optimización avanzada
+- Security hardening con usuario no-root
 
 ---
 

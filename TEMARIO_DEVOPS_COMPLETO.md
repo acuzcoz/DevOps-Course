@@ -3,7 +3,7 @@
 
 **Estudiante:** acuzcoz  
 **Fecha inicio:** 2025-09-14 (REINICIO CON METODOLOGÍA MEJORADA)  
-**Progreso actual:** 14% - Módulo 1: ✅ COMPLETADO | Módulo 2: Lección 4 ⏳ (1/3 ejercicios)
+**Progreso actual:** 15.5% - Módulo 1: ✅ COMPLETADO | Módulo 2: Lección 4 ⏳ (2/3 ejercicios)
 
 ---
 
@@ -547,12 +547,12 @@ aws cloudwatch put-metric-data --namespace "MyApp" --metric-data MetricName=CPUU
 ### **PROGRESO ACTUAL - METODOLOGÍA REAL**
 - **Módulos completados:** 1/6 (17%) - Módulo 1 ✅ COMPLETADO
 - **Lecciones completadas:** 3/24 (13%) - Lección 1 ✅, Lección 2 ✅, Lección 3 ✅
-- **Ejercicios completados:** 9/65 (14%) - 8 M1 + 1 M2
-- **Proyectos en portfolio:** 2 (mi-primer-devops + mi-primer-dockerfile)
+- **Ejercicios completados:** 10/65 (15.5%) - 8 M1 + 2 M2
+- **Proyectos en portfolio:** 3 (mi-primer-devops + mi-primer-dockerfile + nodejs-api)
 
 ### **DESGLOSE POR MÓDULO:**
 - **Módulo 1:** 8/8 ejercicios (100%) ✅
-- **Módulo 2:** 1/9 ejercicios (11%) ⏳
+- **Módulo 2:** 2/9 ejercicios (22%) ⏳
 - **Módulo 3:** 0/12 ejercicios (0%) ⏳
 - **Módulo 4:** 0/12 ejercicios (0%) ⏳
 - **Módulo 5:** 0/12 ejercicios (0%) ⏳
